@@ -1,0 +1,2 @@
+# Hardware part
+alias check_raid="/usr/bin/cciss_vol_status /dev/sda"

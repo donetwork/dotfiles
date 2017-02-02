@@ -7,7 +7,7 @@ then
   source ~/.bash/bashrc.alias
 fi
 
-# Virsh Completion
+# Completion
 for file in $(ls -1 ~/.bash_completion.d)
 do
   source ~/.bash_completion.d/$file

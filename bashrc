@@ -1,5 +1,5 @@
 # Clear screen
-clear
+# clear
 
 # Alias
 if [ -f ~/.bash/bashrc.alias ]

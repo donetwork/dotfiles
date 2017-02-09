@@ -22,6 +22,10 @@ alias ls='ls $LS_OPTIONS'
 alias ll='ls $LS_OPTIONS -alh'
 alias l=ll
 
+# GEM PATH & home
+export GEM_PATH=/space/gem
+export GEM_HOME=/space/gem
+
 # Prompt
 if [[ `whoami` == "root" ]]
 then

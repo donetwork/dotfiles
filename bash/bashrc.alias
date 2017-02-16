@@ -1,5 +1,7 @@
 # Hardware part
 alias check_raid="/usr/bin/cciss_vol_status /dev/sda"
+alias check_raid_soft="cat /proc/mdstat"
+alias check_disk="smartctl -H"
 
 # KVM Part
 alias check_ksm="cat /sys/kernel/mm/ksm/run"

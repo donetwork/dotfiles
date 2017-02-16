@@ -1,5 +1,8 @@
 # Hardware part
 alias check_raid="/usr/bin/cciss_vol_status /dev/sda"
 
+# KVM Part
+alias check_ksm="cat /sys/kernel/mm/ksm/run"
+
 # Firewall part
 alias firewall_broken_connection="netstat -tan | grep SYN_SENT"

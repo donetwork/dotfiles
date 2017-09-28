@@ -11,7 +11,7 @@ alias check_ksm="cat /sys/kernel/mm/ksm/run"
 alias firewall_broken_connection="netstat -tan | grep SYN_SENT"
 
 # Haproxy
-alias haproxy-check-status="curl -s --noproxy \* --user nagios:mypasswd "http://localhost:9300/stats?stats;csv" | cut -d , -f 1,2,18,37"
+alias haproxy-check-status="curl -s --noproxy \* --user nagios:mypasswd 'http://localhost:9300/stats?stats;csv' | cut -d , -f 1,2,18,37"
 
 # Git
 alias git-force-pull="git reset --hard HEAD ; git fetch --all ; git reset --hard"
